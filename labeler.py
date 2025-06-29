@@ -1,26 +1,16 @@
-import openai
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# labeler.py
 
 def classify_issue(title, body):
-    prompt = f"""
-You are an AI assistant helping to label GitHub issues. Choose one label from this list:
-[bug, enhancement, feature, question, documentation]
+    print("⚠️ Using fallback classifier (no OpenAI API)")
 
-Issue Title: {title}
-Issue Body: {body}
+    # Naive rule-based classifier for demo/hackathon testing
+    text = (title + " " + body).lower()
 
-Label:
-"""
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "Classify GitHub issues by label."},
-            {"role": "user", "content": prompt}
-        ]
-    )
-    return response.choices[0].message.content.strip().lower()
+    if "error" in text or "not working" in text or "fail" in text:
+        return "bug"
+    elif "add" in text or "feature" in text or "support" in text:
+        return "enhancement"
+    elif "how" in text or "what" in text or "why" in text or "can i" in text:
+        return "question"
+    else:
+        return "discussion"
