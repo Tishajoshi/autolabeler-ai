@@ -8,6 +8,8 @@ AutoLabeler AI is an open-source Python tool that uses OpenAI’s GPT model to a
 
 No more manually tagging dozens of issues — let the AI triage them for you! 🧠✨
 
+📅 Final submission made on June 29, 2025, for the CertifyO Hackathon.
+
 ---
 
 ## 🚀 Features
