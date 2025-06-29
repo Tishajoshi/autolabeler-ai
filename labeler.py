@@ -1,3 +1,5 @@
+#Final polish for CertifyO Hackathon submission on June 29, 2025 🎯
+
 import openai
 import os
 from dotenv import load_dotenv
