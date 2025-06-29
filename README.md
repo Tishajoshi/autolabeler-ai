@@ -14,15 +14,6 @@ A GitHub-integrated Python bot that automatically labels your issues using AI!
 
 ---
 
-
-### 🧠 AI-based Issue Classification
-![AI classifying](https://raw.githubusercontent.com/Tishajoshi/autolabeler-ai/main/screenshots/ai-label-demo.png)
-
-### 🏷️ GitHub Label Update
-![Labeling success](https://raw.githubusercontent.com/Tishajoshi/autolabeler-ai/main/screenshots/label-update.png)
-
----
-
 ![GitHub stars](https://img.shields.io/github/stars/Tishajoshi/autolabeler-ai?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Tishajoshi/autolabeler-ai?style=social)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
