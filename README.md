@@ -1,7 +1,7 @@
 # 🤖 AutoLabeler AI
 
 ![GitHub stars](https://img.shields.io/github/stars/Tishajoshi/autolabeler-ai?style=social)
-![GitHub license](https://img.shields.io/github/license/Tishajoshi/autolabeler-ai)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
 
 AutoLabeler AI is an open-source Python tool that uses OpenAI’s GPT model to automatically label GitHub issues as `bug`, `feature`, `question`, `enhancement`, or `documentation`.
