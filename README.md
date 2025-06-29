@@ -35,3 +35,9 @@ No more manually tagging dozens of issues — let the AI triage them for you! �
 ```bash
 git clone https://github.com/Tishajoshi/autolabeler-ai.git
 cd autolabeler-ai
+
+📅Final submission update made on June 29, 2025 for the CertifyO Open Source HackathoN.
+
+##📄License
+
+This project is licensed under the MIT License.
